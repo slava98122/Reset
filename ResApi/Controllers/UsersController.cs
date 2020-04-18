@@ -28,7 +28,7 @@ namespace ResApi.Controllers
             return _context.User;
         }
 
-        // GET: api/Users/5
+        // GET: api/Users/5 frge
         [HttpGet("{id}")]
         public async Task<IActionResult> GetUser([FromRoute] int id)
         {
